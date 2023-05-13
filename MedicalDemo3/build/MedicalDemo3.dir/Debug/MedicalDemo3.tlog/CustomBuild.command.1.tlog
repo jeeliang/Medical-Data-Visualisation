@@ -1,0 +1,10 @@
+^C:\UTM\UTM YEAR3 SEM2\DATA VISUALISATION\TUTORIAL VTK\MEDICALDEMO3\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3" "-BC:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build" --check-stamp-file "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

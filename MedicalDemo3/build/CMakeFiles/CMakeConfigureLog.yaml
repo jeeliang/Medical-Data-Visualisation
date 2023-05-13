@@ -1,0 +1,408 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 13/5/2023 8:44:23 PM.
+      Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.98
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 13/5/2023 8:44:25 PM.
+      Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.31
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-aw4lw4"
+      binary: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-aw4lw4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-aw4lw4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6adad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 13/5/2023 8:44:27 PM.
+        Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw4lw4\\cmTC_6adad.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6adad.dir\\Debug\\".
+          Creating directory "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw4lw4\\Debug\\".
+          Creating directory "cmTC_6adad.dir\\Debug\\cmTC_6adad.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6adad.dir\\Debug\\cmTC_6adad.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6adad.dir\\Debug\\\\" /Fd"cmTC_6adad.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6adad.dir\\Debug\\\\" /Fd"cmTC_6adad.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw4lw4\\Debug\\cmTC_6adad.exe" /INCREMENTAL /ILK:"cmTC_6adad.dir\\Debug\\cmTC_6adad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-aw4lw4/Debug/cmTC_6adad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-aw4lw4/Debug/cmTC_6adad.lib" /MACHINE:X64  /machine:x64 cmTC_6adad.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6adad.vcxproj -> C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw4lw4\\Debug\\cmTC_6adad.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6adad.dir\\Debug\\cmTC_6adad.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6adad.dir\\Debug\\cmTC_6adad.tlog\\cmTC_6adad.lastbuildstate".
+        Done Building Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw4lw4\\cmTC_6adad.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-96ziku"
+      binary: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-96ziku"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-96ziku
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a34bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 13/5/2023 8:44:29 PM.
+        Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ziku\\cmTC_a34bf.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a34bf.dir\\Debug\\".
+          Creating directory "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ziku\\Debug\\".
+          Creating directory "cmTC_a34bf.dir\\Debug\\cmTC_a34bf.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a34bf.dir\\Debug\\cmTC_a34bf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a34bf.dir\\Debug\\\\" /Fd"cmTC_a34bf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a34bf.dir\\Debug\\\\" /Fd"cmTC_a34bf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ziku\\Debug\\cmTC_a34bf.exe" /INCREMENTAL /ILK:"cmTC_a34bf.dir\\Debug\\cmTC_a34bf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-96ziku/Debug/cmTC_a34bf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-96ziku/Debug/cmTC_a34bf.lib" /MACHINE:X64  /machine:x64 cmTC_a34bf.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a34bf.vcxproj -> C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ziku\\Debug\\cmTC_a34bf.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a34bf.dir\\Debug\\cmTC_a34bf.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a34bf.dir\\Debug\\cmTC_a34bf.tlog\\cmTC_a34bf.lastbuildstate".
+        Done Building Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ziku\\cmTC_a34bf.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.22
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-763fq3"
+      binary: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-763fq3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-763fq3
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a16dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 13/5/2023 8:45:05 PM.
+        Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\cmTC_a16dc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a16dc.dir\\Debug\\".
+          Creating directory "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\Debug\\".
+          Creating directory "cmTC_a16dc.dir\\Debug\\cmTC_a16dc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a16dc.dir\\Debug\\cmTC_a16dc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a16dc.dir\\Debug\\\\" /Fd"cmTC_a16dc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a16dc.dir\\Debug\\\\" /Fd"cmTC_a16dc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\src.c"
+        C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\cmTC_a16dc.vcxproj]
+        Done Building Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\cmTC_a16dc.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\cmTC_a16dc.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-763fq3\\cmTC_a16dc.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.09
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-3sky96"
+      binary: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-3sky96"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-3sky96
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d201a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 13/5/2023 8:45:07 PM.
+        Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\cmTC_d201a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d201a.dir\\Debug\\".
+          Creating directory "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\Debug\\".
+          Creating directory "cmTC_d201a.dir\\Debug\\cmTC_d201a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d201a.dir\\Debug\\cmTC_d201a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d201a.dir\\Debug\\\\" /Fd"cmTC_d201a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d201a.dir\\Debug\\\\" /Fd"cmTC_d201a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\Debug\\cmTC_d201a.exe" /INCREMENTAL /ILK:"cmTC_d201a.dir\\Debug\\cmTC_d201a.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-3sky96/Debug/cmTC_d201a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-3sky96/Debug/cmTC_d201a.lib" /MACHINE:X64  /machine:x64 cmTC_d201a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\cmTC_d201a.vcxproj]
+        Done Building Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\cmTC_d201a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\cmTC_d201a.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3sky96\\cmTC_d201a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.94
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-e1m2gu"
+      binary: "C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-e1m2gu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-e1m2gu
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e501f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Microsoft (R) Build Engine version 17.2.1+52cd2da31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 13/5/2023 8:45:08 PM.
+        Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\cmTC_e501f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e501f.dir\\Debug\\".
+          Creating directory "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\Debug\\".
+          Creating directory "cmTC_e501f.dir\\Debug\\cmTC_e501f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e501f.dir\\Debug\\cmTC_e501f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e501f.dir\\Debug\\\\" /Fd"cmTC_e501f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e501f.dir\\Debug\\\\" /Fd"cmTC_e501f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\Debug\\cmTC_e501f.exe" /INCREMENTAL /ILK:"cmTC_e501f.dir\\Debug\\cmTC_e501f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-e1m2gu/Debug/cmTC_e501f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/UTM/utm year3 sem2/Data visualisation/tutorial vtk/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-e1m2gu/Debug/cmTC_e501f.lib" /MACHINE:X64  /machine:x64 cmTC_e501f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\cmTC_e501f.vcxproj]
+        Done Building Project "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\cmTC_e501f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\cmTC_e501f.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\UTM\\utm year3 sem2\\Data visualisation\\tutorial vtk\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e1m2gu\\cmTC_e501f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.90
+        
+      exitCode: 1
+...
